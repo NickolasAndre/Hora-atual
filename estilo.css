@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: rgb(53, 134, 241);
+    background-image: linear-gradient(to bottom ,#0FC2C0, #0CABA8, #008F8C);
+    background-attachment: fixed;
 }
 
 header > h1{
@@ -32,4 +33,10 @@ footer, a{
     font-style: italic;
     text-align: center;
     color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(43, 101, 226);
+    text-decoration: underline;
 }
