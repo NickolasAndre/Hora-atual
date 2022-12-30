@@ -10,6 +10,7 @@
 body{
     background-image: linear-gradient(to bottom ,#0FC2C0, #0CABA8, #008F8C);
     background-attachment: fixed;
+    background-size: 100vw;
 }
 
 header > h1{
@@ -28,15 +29,31 @@ section{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.493);
 }
 
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(43, 101, 226);
+    text-decoration: underline;
+}
+
+strong{
+    color: #0ab5e0cb;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.623);
+}
+
 footer, a{
     margin-top: 22px;
     font-style: italic;
     text-align: center;
     color: white;
     text-decoration: none;
-}
-
-a:hover{
-    color: rgb(43, 101, 226);
-    text-decoration: underline;
 }
