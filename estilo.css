@@ -57,3 +57,9 @@ footer, a{
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 450px) {
+    section{
+        width: 300px;
+    }
+}
